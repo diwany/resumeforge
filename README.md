@@ -18,26 +18,11 @@ Runs on the OpenAI API or, for free, on GitHub Models.
 
 </div>
 
-> **Suggested GitHub repo description:** AI resume, cover letter, LinkedIn & ATS optimizer built with Next.js + TypeScript. Works free on GitHub Models or on the OpenAI API.
->
-> **Suggested topics:** `nextjs` `typescript` `tailwindcss` `openai` `github-models` `resume-builder` `ats` `cover-letter` `career-tools` `llm` `ai`
-
 ## Screenshots
-
-> Replace these placeholders with real screenshots once the app is running. Save images to a
-> `docs/` folder and reference them here. To capture: run `npm run dev`, open
-> http://localhost:3000, and screenshot the views below.
 
 | Intake & generation | ATS match score |
 | --- | --- |
-| ![Intake form and document generation](docs/screenshot-intake.png) | ![ATS match score and missing keywords](docs/screenshot-ats.png) |
-
-| Generated resume preview | Export options |
-| --- | --- |
-| ![Rendered resume preview](docs/screenshot-resume.png) | ![PDF and DOCX export](docs/screenshot-export.png) |
-
-_Tip: a short screen-recording converted to a GIF (saved as `docs/demo.gif`) makes the best
-hero image — embed it right under the title with `![Demo](docs/demo.gif)`._
+| ![Intake form and document generation](docs/screenshot-intake.png) |
 
 ## Features
 
