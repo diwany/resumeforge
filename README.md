@@ -2,7 +2,7 @@
 
 # ResumeForge
 
-**AI-powered CV, cover letter, LinkedIn & ATS optimizer — truthful, ATS-safe, and human-sounding.**
+**AI-powered CV, cover letter, LinkedIn & ATS optimizer  truthful, ATS-safe, and human-sounding.**
 
 Paste your details and a job description, and ResumeForge generates a tailored resume,
 cover letter, LinkedIn rewrite, or ATS match report, then exports to PDF or DOCX.
@@ -45,7 +45,7 @@ Open http://localhost:3000, click **Add API key**, choose a provider, and paste 
 
 ### Getting a key
 
-**GitHub Models (free, rate-limited)** — recommended for trying it out:
+**GitHub Models (free, rate-limited)**  recommended for trying it out:
 1. Go to https://github.com/marketplace/models
 2. Create a fine-grained Personal Access Token with **Models: read-only** access.
 3. Paste it into Settings and pick provider **GitHub Models**. Default model `openai/gpt-4o`.
@@ -85,7 +85,7 @@ another OpenAI-compatible provider (Azure, OpenRouter, a local server) is a few 
 
 ## Deploy
 
-Deploy to [Vercel](https://vercel.com) in one click — it's a standard Next.js app. If you
+Deploy to [Vercel](https://vercel.com) in one click  it's a standard Next.js app. If you
 want server-side keys, add the env vars in the Vercel dashboard; otherwise users supply
 their own key in the UI and nothing needs configuring.
 
