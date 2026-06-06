@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+/* Force readable, light form fields even when the OS is in dark mode */
+input,
+textarea,
+select {
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #94a3b8;
+}
+
+option {
+  background-color: #ffffff;
+  color: #0f172a;
+}
+
+/* Rendered markdown preview */
+.prose-doc h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0 0 0.25rem;
+}
+.prose-doc h2 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #0f766e;
+  border-bottom: 1px solid #cbd5e1;
+  padding-bottom: 3px;
+  margin: 1.25rem 0 0.5rem;
+}
+.prose-doc h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0.85rem 0 0.15rem;
+}
+.prose-doc p {
+  margin: 0.4rem 0;
+  line-height: 1.55;
+}
+.prose-doc ul {
+  margin: 0.3rem 0 0.3rem 1.2rem;
+  list-style: disc;
+}
+.prose-doc li {
+  margin: 0.15rem 0;
+  line-height: 1.5;
+}
+.prose-doc strong {
+  font-weight: 600;
+}
